@@ -1,0 +1,25 @@
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+#area1{
+    background-color: aqua;
+}
+div#area2{
+     background-color: darkkhaki;
+}
+div#area3{
+    background-color: orangered;
+}
+div#area4{
+    background-color: aliceblue;
+}
+div#area5{
+    background-color: darkmagenta;
+}
+div#area6{
+    background-color: khaki;
+}
