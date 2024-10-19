@@ -1,0 +1,16 @@
+body{
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p-a{
+    text-align: left;
+}
+.p-b{
+    text-align: right;
+}
+.p-c{
+    text-align: center;
+}
+.p-d{
+    text-align: justify;
+}
