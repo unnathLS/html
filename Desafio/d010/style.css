@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(src/fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+.principal{
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    background: linear-gradient(to top,green,lightgreen);
+
+}
+.menu{
+    text-align: left;
+    color: white;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: darkblue;
+}
+
+body{
+    background-color: lightgreen;
+}
+
+h1.t1{
+    font-size: 30px;
+    font-family: 'idroid';
+    color: rgb(6, 63, 6);
+}
+.p1{
+    text-align: left;
+    margin: auto;
+    font-size: 14px;
+    line-height:  1.5;
+}
+
+h2.t2{
+    font-size: 30px;
+    font-family: 'idroid';
+    color: rgb(6, 63, 6);
+    background:linear-gradient(to right ,lightgreen,white)
+}
+
+article{
+    width: 80%;               /* Largura de 80% da área do elemento pai */
+    max-width: 1200px;         /* Largura máxima de 1200px */
+    margin: auto;           /* Centralizar a seção na página */
+    padding: 20px;            /* Espaço interno da seção */
+    height: auto;            /* Altura da seção */
+    min-height: 100vh;
+    position: relative;        /* Altura mínima */
+    z-index: 1;
+    background-color: white;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.t3{
+    color:white;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.div1{
+    width: auto;
+    height: auto;
+    display: flexbox;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 20px;
+    background-color: green;
+    margin-top: 20px;
+}
+#t4{
+    margin-top: 30px;
+    text-align: left;
+}
+.div2 {
+    width: auto;                /* Largura do quadrado */
+    height: auto;               /* Altura do quadrado */
+    background-color: lightgreen; /* Cor de fundo da div2 */
+    padding: 20px;               /* Espaçamento interno */
+    display: flex;               /* Usando flexbox para centralizar o conteúdo */
+    justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+    align-items: flex-start;     /* Alinha o conteúdo no topo */
+    color: black;                /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte */
+    overflow: auto;              /* Adiciona rolagem se necessário */
+    text-align: justify;         /* Justifica o texto */
+}
+aside{
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+
+}
+aside > h3{
+    background-color: green;
+    padding: 10px;
+    margin: -19px -19px 0px -19px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+* { 
+    margin: 0px;
+    padding: 0px ;
+}
