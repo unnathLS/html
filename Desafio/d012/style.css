@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Estilo para o header */
+header {
+    font-family: 'Passion One', sans-serif;
+    height: 125px;
+    padding-bottom: 40px;
+    background-color: black;
+    font-size: 1.5em;
+    color: aliceblue;
+    text-align: center;
+}
+
+h1, p {
+    height: 35px;
+    line-height: 100px;
+    text-align: center;
+}
+
+/* Estilo do conteúdo do poema */
+pre {
+    font-family: 'Sriracha', sans-serif;
+    font-size: 1.2em;
+    color: beige;
+    display: inline-block;          /* Faz com que a caixa se ajuste ao tamanho do texto */
+    position: relative;
+    left: -80px;
+    top: 20px;
+
+}
+
+/* Container principal do poema */
+.poema {
+    max-width: 1200px;               /* Largura máxima do container principal */
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;                   /* Define o uso do Flexbox */
+    flex-direction: column;                 /* Permite que os itens "quebrem" para a próxima linha */
+    gap: 20px;                       /* Espaçamento entre as estrofes */
+    justify-content: space-between;  /* Distribui as estrofes uniformemente */
+}
+
+/* Estilo para cada estrofe com uma caixa transparente */
+.estrofe {
+    background-color: rgba(0, 0, 0, 0.5);  /* Fundo transparente preto */
+    padding: 10px;                         /* Espaçamento interno */
+    border-radius: 10px;                   /* Bordas arredondadas */
+    color: white;                          /* Cor do texto */
+    width: calc(38% - 38px);               /* Largura de cada coluna (3 por linha) */
+    display: inline-block;
+}
+.estrofe{
+    
+}
+
+/* Estilo de fundo do body */
+body {
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
