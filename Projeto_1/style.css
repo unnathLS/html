@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.quadrado , a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+section{
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    
+}
+.menu > .singup{
+    color: #5878e0;
+}
+.singup{
+    width: max-content;
+    border: 2px solid #5878e0 ;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.centro{
+    display: flex; /* Usado para centralizar o contêiner no corpo */
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    justify-content: center; /* Centraliza o contêiner horizontalmente */
+    align-items: center; /* Centraliza o contêiner verticalmente */
+} 
+.titulo{
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.objeto {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+}
+.texto{
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ccc;
+    flex: 1; /* Isso permitirá que cada 'texto' ocupe um espaço igual */
+    margin: 0 8px; /* Margem lateral */  
+}
+.singup2{
+    text-decoration: none;
+    border: 1px solid #5878e0 ;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.singup2 > a{
+    color: #5878e0;
+}
+.block {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #5878e0;
+    border-radius: 20px;
+}
+.block > a{
+    color: white;
+}
+.texto > p {
+    padding-top: 15px;
+}
+.texto > h3{
+    padding-top: 50px;
+}
+.texto h2 {
+    background-color: #d1dce698; /* Cor de fundo da caixa */
+    margin: -20px; 
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto dentro da caixa */
+}
+footer , a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+.coluna h5{
+    margin-top: 10px;
+}
+.coluna ul{
+    margin-top: 2px;
+    align-items: start;
+}
