@@ -1,0 +1,259 @@
+/* Main e variáveis para o projeto */
+
+/* Criando a variável de cor que vamos usar na fonte */
+
+:root{
+    /* Definindo a cor das fontes */
+    --text-color: #667085;
+    --main-color: #8E2424;
+    /* Definindo o tamanho das fontes para primeiro section */
+    --tamanho-h1-lista: 45px;
+    --tamanho-h1: 30px;
+    /* Definindo o tamanho das fontes para segundo section */
+    --segundo-tamanho-h1: 24px;
+    --segundo-tamanho-lista-h1: 20px;
+    --segundo-tamanho-p: 10px;
+}
+/* Tirando as margin e os padding da pagina */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* Definindo o padding entre as sections */
+section{
+    border-top: 2px solid rgb(255, 8, 8);
+    border-right: 2px solid rgb(255, 8, 8);
+    border-left: 2px solid rgb(255, 8, 8);
+    border-bottom: 2px solid rgb(255, 8, 8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* Limitando a pagina a um tamanho especifico  */
+.main{
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Limitando o tamanho da imagem */
+.main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Definindo a cor de toda as tags h6 */
+.main h6{
+    color: var(--main-color)
+}
+.main p{
+    color: var(--text-color)
+}
+.main pre{
+    color: var(--text-color)
+}
+
+/* Parâmetros para o Header */
+
+/* Definindo o tamanho e centralizando o navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 15px 0;
+}
+/* Centralizando o logo e colocando gap */
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* Definindo a cor da tag a do  logo */
+.logo a{
+    color: black;
+}
+/* Definindo o espaçamento entre as tag a do navbar */
+.menu-1{
+    display: flex;
+    gap: 50px;
+}
+/* Definindo uma cor para tag a do navbar */
+.menu-link-1{
+    color: var(--text-color)
+}
+/* Centralizando a area de cadastro */
+.menu-2{
+    display: flex;
+    align-items: center;
+    gap: 20px;  
+}
+/* Definindo a cor e centralizando o botão de */
+.menu-link-2-botao{
+    color: antiquewhite;
+    display: flex;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: var(--main-color);
+}
+/* Definindo a cor do botão de Entrar */
+.menu-link-2{
+    color:var(--text-color);
+    padding: 5px 5px 5px 5px;
+}
+
+/* Primeira Tag Section da Pagina */
+
+/* Definindo o tamanho e centralizando a primeira section */
+.primeira{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+/* Definindo o tamanho do texto central */
+.texto-centro{
+    display: block;
+    text-align: center;
+    width: 550px;
+    justify-content: center;
+}
+/* Definindo o tamanho e centralizando o h1 */
+.texto-centro h1{
+    font-size: var(--tamanho-h1);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Definindo o tamanho e centralizando ul */
+.linha{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    gap: 50px;
+    
+}
+/* Definindo o tamanho e centralizando o item da lista */
+.item-1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+/* Definindo o tamanho e cor da fonte do h1 */
+.item-1 > h1{
+    color: var(--main-color);
+    font-size: var(--tamanho-h1-lista);
+}
+/* Definindo o tamanho e cor da fonte do h6 */
+.item-1 > h6{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+/* Definindo o tamanho e centralizando o item da lista */
+.item-2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+/* Definindo o tamanho e cor da fonte do h1 */
+.item-2 > h1{
+    color: var(--main-color);
+    font-size: var(--tamanho-h1-lista);
+}
+.item-2 > h6{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+/* Definindo o tamanho e centralizando o item da lista */
+.item-3{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* Definindo o tamanho e cor da fonte do h1 */
+.item-3 > h1{
+    color: var(--main-color);
+    font-size: var(--tamanho-h1-lista);
+}
+/* Definindo o tamanho e cor da fonte do h6 */
+.item-3 > h6{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+/* Definindo o tamanho e centralizando o item da lista */
+.item-4{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;   
+}
+/* Definindo o tamanho e cor da fonte do h1 */
+.item-4 > h1{
+    color: var(--main-color);
+    font-size: var(--tamanho-h1-lista);
+}
+/* Definindo o tamanho e cor da fonte do h6 */
+.item-4 > h6{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+/* Segunda tag section da pagina */
+/* Definindo o tamanho e centralizando a primeira section */
+.segunda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+/* Definindo o tamanho do texto central */
+.segundo-texto-centro{
+    display: block;
+    text-align: center;
+    width: 550px;
+    justify-content: center;
+}
+/* Definindo o tamanho e centralizando o h1 */
+.segundo-texto-centro h1{
+    font-size: var(--segundo-tamanho-h1);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Definindo a distancia da margin da imagem */
+.segunda-imagem{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.segundo-texto-vagas ol{
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.segundo-texto-vagas li{
+    margin-top: 15px;
+}
+.vaga{
+    margin: 15px 10px 10px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    width: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    display: block;
+    align-items: end;
+    margin-bottom: 20px;
+}
+.vaga h1{
+    font-size: var(--segundo-tamanho-lista-h1);
+    margin-bottom: 10px;
+}
+.vaga pre{
+    font-size: var(--segundo-tamanho-p);
+}
