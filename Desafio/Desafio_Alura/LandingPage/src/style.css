@@ -33,8 +33,8 @@ section{
 /* Limitando a pagina a um tamanho especifico  */
 .main{
     max-width: 1050px;
-    width: 100%;
     margin: 0 auto;
+    width: 100%;
 }
 
 /* Limitando o tamanho da imagem */
@@ -58,15 +58,15 @@ section{
 
 /* Definindo o tamanho e centralizando o navbar*/
 .navbar{
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 15px 0 15px 0;
 }
 /* Centralizando o logo e colocando gap */
 .logo{
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 10px;
 }
 /* Definindo a cor da tag a do  logo */
@@ -84,17 +84,17 @@ section{
 }
 /* Centralizando a area de cadastro */
 .menu-2{
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 20px;  
 }
 /* Definindo a cor e centralizando o botão de */
 .menu-link-2-botao{
+    background-color: var(--main-color);
+    border-radius: 5px;
     color: antiquewhite;
     display: flex;
-    border-radius: 5px;
     padding: 5px 5px 5px 5px;
-    background-color: var(--main-color);
 }
 /* Definindo a cor do botão de Entrar */
 .menu-link-2{
@@ -106,17 +106,17 @@ section{
 
 /* Definindo o tamanho e centralizando a primeira section */
 .primeira{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0 auto;
 }
 /* Definindo o tamanho do texto central */
 .texto-centro{
     display: block;
+    justify-content: center;
     text-align: center;
     width: 550px;
-    justify-content: center;
 }
 /* Definindo o tamanho e centralizando o h1 */
 .texto-centro h1{
@@ -128,16 +128,16 @@ section{
 .linha{
     display: flex;
     flex-direction: row;
-    margin-top: 80px;
     gap: 50px;
+    margin-top: 80px;
     
 }
 /* Definindo o tamanho e centralizando o item da lista */
 .item-1{
     display: block;
-    width: 100%;
     height: 100%;
     object-fit: contain;
+    width: 100%;
     
 }
 /* Definindo o tamanho e cor da fonte do h1 */
@@ -154,9 +154,9 @@ section{
 /* Definindo o tamanho e centralizando o item da lista */
 .item-2{
     display: block;
-    width: 100%;
     height: 100%;
     object-fit: contain;
+    width: 100%;
     
 }
 /* Definindo o tamanho e cor da fonte do h1 */
@@ -172,9 +172,9 @@ section{
 /* Definindo o tamanho e centralizando o item da lista */
 .item-3{
     display: block;
-    width: 100%;
     height: 100%;
     object-fit: contain;
+    width: 100%;
 }
 /* Definindo o tamanho e cor da fonte do h1 */
 .item-3 > h1{
@@ -190,9 +190,9 @@ section{
 /* Definindo o tamanho e centralizando o item da lista */
 .item-4{
     display: block;
-    width: 100%;
     height: 100%;
     object-fit: contain;   
+    width: 100%;
 }
 /* Definindo o tamanho e cor da fonte do h1 */
 .item-4 > h1{
@@ -208,17 +208,17 @@ section{
 /* Segunda tag section da pagina */
 /* Definindo o tamanho e centralizando a primeira section */
 .segunda{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0 auto;
 }
 /* Definindo o tamanho do texto central */
 .segundo-texto-centro{
     display: block;
+    justify-content: center;
     text-align: center;
     width: 550px;
-    justify-content: center;
 }
 /* Definindo o tamanho e centralizando o h1 */
 .segundo-texto-centro h1{
@@ -232,23 +232,23 @@ section{
     margin-bottom: 20px;
 }
 .segundo-texto-vagas ol{
-    margin-right: 80px;
     display: flex;
     flex-direction: column;
+    margin-right: 80px;
     padding: 20px;
 }
 .segundo-texto-vagas li{
     margin-top: 15px;
 }
 .vaga{
-    margin: 15px 10px 10px 30px;
-    border: 1px solid rgba(0, 0, 0, 0.082);
-    width: 500px;
-    border-radius: 15px;
-    padding: 20px;
-    display: block;
     align-items: end;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    border-radius: 15px;
+    display: block;
+    margin: 15px 10px 10px 30px;
     margin-bottom: 20px;
+    padding: 20px;
+    width: 500px;
 }
 .vaga h1{
     font-size: var(--segundo-tamanho-lista-h1);
